@@ -18,8 +18,10 @@
     "url": "https://github.com/Paraknight/eslisp-loader/issues"
   },
   "homepage": "https://github.com/Paraknight/eslisp-loader#readme",
+  "peerDependencies": {
+    "eslisp": "0.5.x"
+  },
   "dependencies": {
-    "eslisp": "^0.5.1",
     "loader-utils": "^0.2.11"
   }
 }
