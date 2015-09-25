@@ -21,6 +21,13 @@ var exportsOfFile = require("eslisp!./file.esl");
 		loaders: [
 			{ test: /\.esl$/, loader: 'eslisp' }
 		]
+	},
+	eslisp: {
+		// A list of paths to be required as transform macros
+		transforms: [
+			'eslisp-camelify',   // Module name
+			'./path/to/macro.js' // Path
+		]
 	}
 }
 ```

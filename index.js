@@ -8,7 +8,7 @@ module.exports = function (source) {
 	//var jsRequest = loaderUtils.getCurrentRequest(this);
 	var query = loaderUtils.parseQuery(this.query);
 
-	query.transformMacros = this.eslisp.tranforms.map(require);
+	query.transformMacros = this.options.eslisp.transforms.map(require);
 
 	var result = eslisp(source, query);
 
