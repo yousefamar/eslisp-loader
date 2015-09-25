@@ -19,7 +19,7 @@ var exportsOfFile = require("eslisp!./file.esl");
 {
 	module: {
 		loaders: [
-			{ test: /\.esl$/, loader: 'eslisp' },
+			{ test: /\.esl$/, loader: 'eslisp' }
 		]
 	}
 }
