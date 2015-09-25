@@ -1,0 +1,21 @@
+{
+  "name": "eslisp-loader",
+  "version": "1.0.0",
+  "description": "eslisp loader module for webpack",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paraknight/eslisp-loader.git"
+  },
+  "keywords": [
+    "eslisp",
+    "webpack",
+    "loader"
+  ],
+  "author": "Yousef Amar <yousef@amar.io> (http://yousefamar.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Paraknight/eslisp-loader/issues"
+  },
+  "homepage": "https://github.com/Paraknight/eslisp-loader#readme"
+}
