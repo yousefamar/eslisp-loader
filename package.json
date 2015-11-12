@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/Paraknight/eslisp-loader#readme",
   "peerDependencies": {
-    "eslisp": "0.7.x"
+    "eslisp": "0.5.x || 0.6.x || 0.7.x"
   },
   "dependencies": {
     "loader-utils": "^0.2.11"
